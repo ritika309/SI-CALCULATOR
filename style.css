@@ -1,4 +1,72 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color: #ffe6e6; font-family: arial ; color: black ; align:center}
+h1{color:grey ; font-family : arial; align: center }
+ /* entry for class main 
+*/
 
+.maindiv{
+width : 800px;
+padding : 80px;
 
+ border-radius:25px;
+ border-style:solid;
+    align:center;
+    font-size : 30px;
+
+}
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 60%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #ffb3b3; /* white background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #ff0066; /* pink background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #ff0066; /* pink background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.res {
+    width : 600px;  
+    background:white;
+    font-size : 28px;
+    font-weight: bold;
+
+    }
+.rate_val {
+    background-color: #f2f2f2;
+    font-size : 25px;
+    font-weight: normal;
+    align: center;
+    }
+.sel {
+    background: #f5f5f5;
+    font-size : 24px;
+    font-weight: bold;
+    }
